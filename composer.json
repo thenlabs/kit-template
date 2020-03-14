@@ -1,0 +1,19 @@
+{
+    "name": "thenlabs/kit-template",
+    "type": "then-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Daniel Navarro Taño",
+            "email": "andaniel05@gmail.com"
+        }
+    ],
+    "require": {
+        "thenlabs/composed-views": "dev-master"
+    },
+    "require-dev": {
+        "thenlabs/cli": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
