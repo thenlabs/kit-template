@@ -1,6 +1,6 @@
 {
     "name": "thenlabs/kit-template",
-    "type": "then-package",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -15,5 +15,8 @@
         "thenlabs/cli": "dev-master"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": [
+        "@composer init --type=then-package"
+    ]
 }
