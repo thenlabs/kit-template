@@ -1,5 +1,6 @@
 {
     "name": "thenlabs/kit-template",
+    "description": "The ComposedViews project template.",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -16,7 +17,7 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "scripts": [
-        "@composer init --type=then-package"
-    ]
+    "scripts": {
+        "init-project": "@composer init --type=then-package"
+    }
 }
