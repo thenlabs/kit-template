@@ -18,6 +18,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-create-project-cmd": "@composer init --type=then-package"
+        "post-create-project-cmd": "@composer init"
     }
 }
