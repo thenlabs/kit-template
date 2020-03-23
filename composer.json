@@ -18,6 +18,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-create-project-cmd": "@composer init"
+        "post-create-project-cmd": [
+            "@putenv COMPOSER_NO_INTERACTION=0",
+            "@composer init"
+        ]
     }
 }
