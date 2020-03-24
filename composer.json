@@ -16,5 +16,10 @@
         "thenlabs/cli": "dev-master"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "post-create-project-cmd": [
+            "SHELL_INTERACTIVE=1 @composer init"
+        ]
+    }
 }
