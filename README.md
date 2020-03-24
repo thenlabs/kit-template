@@ -1,6 +1,6 @@
 
 # Kit Template
 
-## Instalación.
+## Installation.
 
     $ composer create-project thenlabs/kit-template <directory> dev-master
