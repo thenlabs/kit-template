@@ -7,7 +7,7 @@ $thenPackage = __DIR__.'/then-package.json';
 $address = $argv[1] ?? 'localhost:8080';
 
 echo 'Installing assets...';
-passthru("./vendor/bin/then install:assets {$examplesDir} {$thenPackage}");
+passthru("php vendor/bin/then install:assets {$examplesDir} {$thenPackage}");
 echo 'OK'.PHP_EOL;
 
 echo "Starting web server on http://{$address}\n";

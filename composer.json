@@ -12,7 +12,8 @@
     "scripts": {
         "post-create-project-cmd": [
             "composer init --type=then-package --stability=dev --require=thenlabs/composed-views:dev-master --require-dev=thenlabs/cli:dev-master --ansi < /dev/tty",
-            "composer update -vvv --ansi < /dev/tty"
+            "composer update -vvv --ansi < /dev/tty",
+            "rm README.md"
         ]
     }
 }
